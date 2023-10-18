@@ -179,3 +179,47 @@ INFO: Detected non-HTTP/2 connection.
 [error] Error: An unexpected error has occurred.
 [warn] ⚠  hub: Error stopping emulator hub {"metadata":{"emulator":{"name":"hub"},"message":"Error stopping emulator hub"}}
 [info] i  logging: Stopping Logging Emulator {"metadata":{"emulator":{"name":"logging"},"message":"Stopping Logging Emulator"}}
+[debug] [2023-10-18T01:11:16.152Z] ----------------------------------------------------------------------
+[debug] [2023-10-18T01:11:16.152Z] Command:       /Users/levrosenberg/.nvm/versions/node/v18.17.0/bin/node /opt/homebrew/bin/firebase init hosting
+[debug] [2023-10-18T01:11:16.153Z] CLI Version:   12.3.0
+[debug] [2023-10-18T01:11:16.153Z] Platform:      darwin
+[debug] [2023-10-18T01:11:16.153Z] Node Version:  v18.17.0
+[debug] [2023-10-18T01:11:16.157Z] Time:          Tue Oct 17 2023 20:11:16 GMT-0500 (Central Daylight Time)
+[debug] [2023-10-18T01:11:16.157Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-10-18T01:11:16.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-10-18T01:11:16.191Z] > authorizing via signed-in user (levrosenberg2024@u.northwestern.edu)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/levrosenberg/Desktop/LevsNuArt/ArtNU/artnu
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-10-18T01:11:16.193Z] Using project from CLI flag: nuart-part-2
+[debug] [2023-10-18T01:11:16.194Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/nuart-part-2 [none]
+[debug] [2023-10-18T01:11:16.688Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/nuart-part-2 200
+[debug] [2023-10-18T01:11:16.688Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/nuart-part-2 {"projectId":"nuart-part-2","projectNumber":"772881649664","displayName":"NuArt part 2","name":"projects/nuart-part-2","resources":{"hostingSite":"nuart-part-2","realtimeDatabaseInstance":"nuart-part-2-default-rtdb","storageBucket":"nuart-part-2.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a214f38b-ac2f-4f8a-9384-27c4707c7f98"}
+[info] i  Using project nuart-part-2 (NuArt part 2) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
