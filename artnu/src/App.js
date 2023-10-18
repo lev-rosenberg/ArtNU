@@ -2,7 +2,7 @@ import './App.css';
 import { readPosts } from "./firebase.js"
 import Home from "./components/Home.js"
 import {AddPost} from "./components/AddPost.js"
-import { BrowserRouter, Routes, Route, useNavigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Navbar } from './components/navbar';
 import NoPage from './components/NoPage';
 import Commissions from './components/Commissions';
