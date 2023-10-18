@@ -1,12 +1,12 @@
 // Import the functions you need from the SDKs you need
 import { getAnalytics } from "firebase/analytics";
 import { initializeApp } from "firebase/app";
-import { connectFirestoreEmulator, getFirestore, initializeFirestore } from "firebase/firestore";
+import { getFirestore, initializeFirestore } from "firebase/firestore";
 import firebase from "firebase/app";
 import "firebase/firestore";
 import { query, onSnapshot, collection, getDocs, getDoc, DocumentReference, addDoc, doc, updateDoc, arrayUnion , setDoc} from "firebase/firestore"; 
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
-import { getAuth, getRedirectResult, GoogleAuthProvider, connectAuthEmulator, signInWithCredential, signInWithRedirect} from "firebase/auth";
+import { getAuth, getRedirectResult, GoogleAuthProvider, signInWithCredential, signInWithRedirect} from "firebase/auth";
 import { getDatabase, connectDatabaseEmulator } from "firebase/database";
 import { windows } from "./globals.js";
 import { useEffect } from "react";
