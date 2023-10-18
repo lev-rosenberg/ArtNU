@@ -17,6 +17,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -24,8 +25,7 @@
     "cy:open": "cypress open --e2e",
     "em:start": "firebase emulators:start --import=./saved-data --export-on-exit",
     "em:exec": "firebase emulators:exec --import=./saved-data 'npm start'",
-    "em:execui": "firebase emulators:exec --ui --import=./saved-data 'npm start'",
-    "deploy": "firebase deploy"
+    "em:execui": "firebase emulators:exec --ui --import=./saved-data 'npm start'"
   },
   "eslintConfig": {
     "extends": [
@@ -49,5 +49,6 @@
     "cypress": "^12.10.0",
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.10.0"
-  }
+  },
+  "homepage": "https://lev-rosenberg.github.io/ArtNU"
 }

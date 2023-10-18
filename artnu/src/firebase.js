@@ -56,17 +56,17 @@ export const db = initializeFirestore(app, settings)
 
 
 
-if (!windows.EMULATION && process.env.NODE_ENV == 'production') {
-  connectAuthEmulator(auth, "http://127.0.0.1:9099");
-  connectDatabaseEmulator(database, "127.0.0.1", 9000);
-  connectFirestoreEmulator(db, "127.0.0.1", 8080);
-  signInWithCredential(auth, GoogleAuthProvider.credential(
-    '{"sub": "LHgJj7vIBfE1X7lJ1qdXRiuTm9XS", "email": "tatyanapetriv2023@u.northwestern.edu", "displayName":"tanya petriv", "email_verified": false}'
-  ));
+// if (!windows.EMULATION && process.env.NODE_ENV == 'production') {
+//   connectAuthEmulator(auth, "http://127.0.0.1:9099");
+//   connectDatabaseEmulator(database, "127.0.0.1", 9000);
+//   connectFirestoreEmulator(db, "127.0.0.1", 8080);
+//   signInWithCredential(auth, GoogleAuthProvider.credential(
+//     '{"sub": "LHgJj7vIBfE1X7lJ1qdXRiuTm9XS", "email": "tatyanapetriv2023@u.northwestern.edu", "displayName":"tanya petriv", "email_verified": false}'
+//   ));
 
-  // set flag to avoid connecting twice, e.g., because of an editor hot-reload
-  windows.EMULATION = true;
-}
+//   // set flag to avoid connecting twice, e.g., because of an editor hot-reload
+//   windows.EMULATION = true;
+// }
 // export async function getMessages(id) {
 //   const convos = [];
 //   const q = query(collection(db, "users", id, "chatrooms"));
