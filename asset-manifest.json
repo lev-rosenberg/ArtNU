@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.34482530.css",
-    "main.js": "/my-app/static/js/main.72bcd01d.js",
-    "static/js/787.09b2b720.chunk.js": "/my-app/static/js/787.09b2b720.chunk.js",
-    "static/media/paint.jpg": "/my-app/static/media/paint.8da451f9073b36b5575a.jpg",
-    "static/media/SlateMedium.TTF": "/my-app/static/media/SlateMedium.51cbfa125235962f7b4f.TTF",
-    "static/media/SlateBook.TTF": "/my-app/static/media/SlateBook.32a6cb65ade2e179afb7.TTF",
-    "static/media/SlateLight.TTF": "/my-app/static/media/SlateLight.370b0378cb826358f52a.TTF",
-    "static/media/user_icon.png": "/my-app/static/media/user_icon.1443faa08d4ee794e91f.png",
-    "static/media/button_right.png": "/my-app/static/media/button_right.edc914e8add0773d0ab8.png",
-    "static/media/paw.png": "/my-app/static/media/paw.777f2ce40b9f1ac37c65.png",
-    "static/media/commission.jpg": "/my-app/static/media/commission.52fbdf581d7272c5407f.jpg",
-    "static/media/button_left.png": "/my-app/static/media/button_left.09fd91b7135408f62f45.png",
-    "static/media/user.png": "/my-app/static/media/user.b52a6ac50a57e837763a.png",
-    "index.html": "/my-app/index.html",
-    "main.34482530.css.map": "/my-app/static/css/main.34482530.css.map",
-    "main.72bcd01d.js.map": "/my-app/static/js/main.72bcd01d.js.map",
-    "787.09b2b720.chunk.js.map": "/my-app/static/js/787.09b2b720.chunk.js.map"
+    "main.css": "/ArtNU/static/css/main.7f3a8cbd.css",
+    "main.js": "/ArtNU/static/js/main.941e9c79.js",
+    "static/js/787.09b2b720.chunk.js": "/ArtNU/static/js/787.09b2b720.chunk.js",
+    "static/media/paint.jpg": "/ArtNU/static/media/paint.8da451f9073b36b5575a.jpg",
+    "static/media/SlateMedium.TTF": "/ArtNU/static/media/SlateMedium.51cbfa125235962f7b4f.TTF",
+    "static/media/SlateBook.TTF": "/ArtNU/static/media/SlateBook.32a6cb65ade2e179afb7.TTF",
+    "static/media/SlateLight.TTF": "/ArtNU/static/media/SlateLight.370b0378cb826358f52a.TTF",
+    "static/media/user_icon.png": "/ArtNU/static/media/user_icon.1443faa08d4ee794e91f.png",
+    "static/media/button_right.png": "/ArtNU/static/media/button_right.edc914e8add0773d0ab8.png",
+    "static/media/paw.png": "/ArtNU/static/media/paw.777f2ce40b9f1ac37c65.png",
+    "static/media/commission.jpg": "/ArtNU/static/media/commission.52fbdf581d7272c5407f.jpg",
+    "static/media/button_left.png": "/ArtNU/static/media/button_left.09fd91b7135408f62f45.png",
+    "static/media/user.png": "/ArtNU/static/media/user.b52a6ac50a57e837763a.png",
+    "index.html": "/ArtNU/index.html",
+    "main.7f3a8cbd.css.map": "/ArtNU/static/css/main.7f3a8cbd.css.map",
+    "main.941e9c79.js.map": "/ArtNU/static/js/main.941e9c79.js.map",
+    "787.09b2b720.chunk.js.map": "/ArtNU/static/js/787.09b2b720.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.34482530.css",
-    "static/js/main.72bcd01d.js"
+    "static/css/main.7f3a8cbd.css",
+    "static/js/main.941e9c79.js"
   ]
 }
