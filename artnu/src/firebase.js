@@ -7,7 +7,7 @@ import "firebase/firestore";
 import { query, onSnapshot, collection, getDocs, getDoc, DocumentReference, addDoc, doc, updateDoc, arrayUnion , setDoc} from "firebase/firestore"; 
 import { getStorage, ref, listAll, getDownloadURL } from "firebase/storage";
 import { getAuth, getRedirectResult, GoogleAuthProvider, signInWithCredential, signInWithRedirect} from "firebase/auth";
-import { getDatabase, connectDatabaseEmulator } from "firebase/database";
+import { getDatabase } from "firebase/database";
 import { windows } from "./globals.js";
 import { useEffect } from "react";
 
